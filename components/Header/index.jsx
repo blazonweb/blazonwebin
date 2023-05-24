@@ -32,7 +32,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" href="/">
-                  <img src="https://github.com/blazonweb/blazonwebin/blob/master/public/images/blazon-logo.png" alt="Logo" />
+                  <img src="/images/blazon-logo.png" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
