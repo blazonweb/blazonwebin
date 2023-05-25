@@ -5,6 +5,9 @@ import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
 import DropDown from './DropDown';
 import Link from 'next/link';
+import Image from 'next/image';
+import profilePic from '../public/images/blazon-logo.png';
+
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
