@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/blazonwebin',
+  basePath: 'https://blazonweb.github.io/blazonwebin',
 }
 
 module.exports = nextConfig
