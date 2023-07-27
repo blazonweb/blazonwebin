@@ -32,20 +32,20 @@ export default function Home() {
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: ' Happy Clients',
+      factNumber: '20K',
     },
     {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Completed Campaigns',
+      factNumber: '4K',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
+      title: 'On-Time Delivery',
+      factNumber: '100%',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Live Websites',
+      factNumber: '70',
     },
   ];
 
@@ -60,14 +60,16 @@ export default function Home() {
       <Layout>
         {/* Start Hero Section */}
         <Hero
-          title="Creativity In <br/>Our Blood Line"
-          subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+          title="Digital Transformation<br>
+          We Made Simple "
+          subtitle="innovative digital agency empowering business owners to
+          enhance their online presence and thrive in the digital realm."
           btnText="Get a Quote"
           btnLink="/contact"
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/hero_bg.jpeg"
+          bgImageUrl="/images/bg1.jpg"
         />
         {/* End Hero Section */}
 
@@ -75,8 +77,9 @@ export default function Home() {
         <div className="container">
           <FunFact
             variant="cs-type1"
-            title="Our fun fact"
-            subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+            title="Driving Success"
+            subtitle="At Blazon Web, we measure our success not only in terms of creativity
+            and innovation but also through the tangible results we achieve for our clients."
             data={funfaceData}
           />
         </div>
@@ -89,7 +92,7 @@ export default function Home() {
             <Div className="row">
               <Div className="col-xl-4">
                 <SectionHeading
-                  title="Services we can help you with"
+                  title="Transforming Ideas into Digital Success"
                   subtitle="What Can We Do"
                   btnText="See All Services"
                   btnLink="/service"
@@ -101,7 +104,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="UI/UX design"
+                      title="Web Development"
                       link="/service/service-details"
                       src="/images/service_1.jpeg"
                       alt="Service"
@@ -111,7 +114,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="React.js Development"
+                      title="Digital Marketing"
                       link="/service/service-details"
                       src="/images/service_2.jpeg"
                       alt="Service"
@@ -120,7 +123,7 @@ export default function Home() {
                   </Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Digital Marketing"
+                      title="Branding"
                       link="/service/service-details"
                       src="/images/service_3.jpeg"
                       alt="Service"
@@ -130,7 +133,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Technology"
+                      title="Digital consulting"
                       link="/service/service-details"
                       src="/images/service_4.jpeg"
                       alt="Service"
@@ -161,7 +164,7 @@ export default function Home() {
         {/* End Portfolio Section */}
 
         {/* Start Awards Section */}
-        <Spacing lg="150" md="80" />
+        {/* <Spacing lg="150" md="80" />
         <Div className="cs-shape_wrap_2">
           <Div className="cs-shape_2">
             <Div />
@@ -181,7 +184,7 @@ export default function Home() {
               </Div>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
         {/* End Awards Section */}
 
         {/* Start Video Block Section */}

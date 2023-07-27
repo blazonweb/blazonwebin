@@ -12,20 +12,20 @@ import Spacing from '../components/Spacing';
 export default function About() {
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: ' Happy Clients',
+      factNumber: '20K',
     },
     {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Completed Campaigns',
+      factNumber: '4K',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
+      title: 'On-Time Delivery',
+      factNumber: '100%',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Live Websites',
+      factNumber: '70',
     },
   ];
   return (
@@ -55,11 +55,12 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                Blazon Web, founded in 2022 by four visionary young men, is an innovative
+                digital agency empowering business owners to enhance their online
+                presence and thrive in the digital realm. As a leading digital agency,
+                we bring together a team of talented professionals
+                who are dedicated to delivering exceptional results and
+                unparalleled creativity.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
@@ -98,8 +99,9 @@ export default function About() {
         {/* Start Fun Fact Section */}
         <Div className="container">
           <FunFact
-            title="Our fun fact"
-            subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+            title="Driving Success"
+            subtitle="At Blazon Web, we measure our success not only in terms of creativity
+            and innovation but also through the tangible results we achieve for our clients."
             data={funfaceData}
           />
         </Div>
@@ -128,18 +130,17 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                we value long-term relationships and strive to exceed expectations in
+                every project we undertake. Our dedication to client satisfaction is
+                unwavering, and we measure our success by the success of our
+                clients. When you work with us, you can expect personalized attention,
+                top-notch customer service, and a commitment to delivering projects
+                on time and within budget.
                 </p>
                 <Spacing lg="15" md="15" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining.
+                Experience the Blazon Web difference and contact us today to
+                discuss how we can help you achieve digital success
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
