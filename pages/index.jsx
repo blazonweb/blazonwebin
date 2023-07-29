@@ -15,6 +15,7 @@ import TestimonialSlider from '../components/Slider/TestimonialSlider';
 import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
+import ServiceList from '../components/ServiceList';
 
 export default function Home() {
   // Hero Social Links
@@ -69,7 +70,7 @@ export default function Home() {
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/bg1.jpg"
+          bgImageUrl="/images/backgroundimage1.jpg"
         />
         {/* End Hero Section */}
 
@@ -86,6 +87,7 @@ export default function Home() {
         {/* End FunFact Section */}
 
         {/* Start Service Section */}
+       
         <Spacing lg="150" md="80" />
         <Div id="service">
           <Div className="container">
@@ -123,7 +125,7 @@ export default function Home() {
                   </Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Branding"
+                      title="Branding ghghgh"
                       link="/service/service-details"
                       src="/images/service_3.jpeg"
                       alt="Service"
