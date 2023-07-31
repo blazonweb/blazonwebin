@@ -43,7 +43,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="UI/UX design"
-                      link="/service/ui-ux-design"
+                      link="/service/branding.jsx"
                       src="/images/service_1.jpeg"
                       alt="Service"
                     />
