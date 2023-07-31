@@ -53,7 +53,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="React.js Development"
-                      link="/service/reactjs-development"
+                      link="/service/digital-marketing"
                       src="/images/service_2.jpeg"
                       alt="Service"
                     />
