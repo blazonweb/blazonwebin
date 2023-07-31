@@ -14,7 +14,7 @@ import Spacing from '../../components/Spacing';
 
 export default function ServiceDetails() {
   const router = useRouter();
-  const serviceId = router.query.branding;
+  const serviceId = 'Branding'
   return (
     <>
       <Head>
