@@ -108,7 +108,7 @@ export default function Home() {
                     <Card
                       title="Web Development"
                       link="/service/service-details"
-                      src="/images/service_1.jpeg"
+                      src="/images/Web_development.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -118,16 +118,16 @@ export default function Home() {
                     <Card
                       title="Digital Marketing"
                       link="/service/service-details"
-                      src="/images/service_2.jpeg"
+                      src="/images/digital_marketing.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
                   </Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Branding ghghgh"
+                      title="Branding"
                       link="/service/service-details"
-                      src="/images/service_3.jpeg"
+                      src="/images/branding.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
