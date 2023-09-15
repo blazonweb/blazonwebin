@@ -9,7 +9,7 @@ import TextWidget from '../Widget/TextWidget';
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
   const copyrightLinks = [
     {
-      title: 'Terms of Use',
+      title: 'Terms of Services',
       href: '/',
     },
     {
@@ -20,20 +20,39 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 
   const serviceMenu = [
     {
-      title: 'UI/UX design',
+      title: 'Web Development',
       href: '/service/service-details',
     },
     {
-      title: 'WP development',
+      title: 'Digital Marketing',
       href: '/service/service-details',
     },
     {
-      title: 'Digital marketing',
+      title: 'Branding',
       href: '/service/service-details',
     },
+   
+  ];
+
+
+
+  const quicklinkMenu = [
+  
     {
-      title: 'React development',
-      href: '/service/service-details',
+      title: 'About Us',
+      href: '/about',
+    },
+    {
+      title: 'Services',
+      href: '/service',
+    },
+    {
+      title: 'Portfolio',
+      href: '/portfolio',
+    },
+    {
+      title: 'Team',
+      href: '/team',
     },
   ];
 
@@ -42,33 +61,36 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="cs-fooer_main">
         <Div className="container">
           <Div className="row">
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-4 col-sm-6 pe-4">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/blazon-logo.png"
-                  logoAlt="Logo"
-                  text="blazon web insem accusantium."
+                  logoSrc="/images/blazon-logo.svg"
+                  logoAlt="Blazon web logo"
+                  text="Innovative digital agency empowering business owners to enhance their online presence and thrive in the digital realm."
                 />
                 <SocialWidget />
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
+                <MenuWidget menuItems={quicklinkMenu} menuHeading="Quick links" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title="Contact Us" />
+               
+                <MenuWidget menuItems={serviceMenu} menuHeading="Our Services" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <Newsletter
+                {/* <Newsletter
                   title="Subscribe"
                   subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
                   placeholder="example@gmail.com"
-                />
+                /> */}
+
+                 <ContactInfoWidget title="Contact Us" />
               </Div>
             </Div>
           </Div>
@@ -77,7 +99,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2022 Laralink.</Div>
+            <Div className="cs-copyright">Copyright © 2023 Blazonweb Pvt Ltd.</Div>
           </Div>
           <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=" cs-style2" />
